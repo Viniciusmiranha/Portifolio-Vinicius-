@@ -9,51 +9,70 @@
 
 <body>
 
-  <main class="container">
+  <!-- BACKGROUND GRID -->
+  <div class="grid-bg"></div>
 
-    <!-- APRESENTAÇÃO -->
-    <section class="hero">
+  <!-- HERO -->
+  <section class="hero reveal">
+    <div class="hero-left">
       <h1>Seu Nome</h1>
-      <p>Desenvolvedor focado em criar experiências digitais elegantes</p>
-    </section>
+      <p>Desenvolvedor focado em experiências digitais de alto impacto</p>
+    </div>
 
-    <!-- HABILIDADES -->
-    <section class="block">
-      <h2>Habilidades</h2>
+    <div class="hero-right">
+      <img src="assets/profile.jpg" alt="Foto de perfil">
+    </div>
+  </section>
 
-      <div class="skills">
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">Python</div>
+  <!-- SKILLS -->
+  <section class="section skills-section reveal">
+    <h2>Habilidades</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <img src="assets/tech/html.png">
+        <span>HTML</span>
       </div>
-    </section>
 
-    <!-- PROJETOS -->
-    <section class="block">
-      <h2>Projetos</h2>
-
-      <div class="projects">
-
-        <article class="project">
-          <h3>Projeto Exemplo</h3>
-          <p>Aplicação moderna focada em performance e design limpo.</p>
-          <a href="#" target="_blank">Ver projeto →</a>
-        </article>
-
-        <!-- DUPLIQUE ESSE BLOCO PARA NOVOS PROJETOS -->
-
+      <div class="skill-card">
+        <img src="assets/tech/css.png">
+        <span>CSS</span>
       </div>
-    </section>
 
-    <!-- CONTATO -->
-    <section class="block contact">
-      <h2>Contato</h2>
-      <p>📧 seuemail@email.com</p>
-      <p>💻 github.com/seuusuario</p>
-    </section>
+      <div class="skill-card">
+        <img src="assets/tech/js.png">
+        <span>JavaScript</span>
+      </div>
 
-  </main>
+      <div class="skill-card">
+        <img src="assets/tech/python.png">
+        <span>Python</span>
+      </div>
+    </div>
+  </section>
 
+  <!-- PROJETOS -->
+  <section class="section projects-section reveal">
+    <h2>Projetos</h2>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <h3>Projeto Alpha</h3>
+        <p>Aplicação moderna com foco em UI/UX e performance.</p>
+        <a href="#">Ver projeto</a>
+      </article>
+
+      <!-- DUPLICAR PARA MAIS -->
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section contact-section reveal">
+    <h2>Contato</h2>
+    <p>Email: seuemail@email.com</p>
+    <p>GitHub: github.com/seuusuario</p>
+  </section>
+
+  <script src="scroll.js"></script>
 </body>
 </html>
